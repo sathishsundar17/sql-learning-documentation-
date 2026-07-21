@@ -9,3 +9,5 @@ SQLQuery4.sql - GROUP BY clause
 SQLQuery5.sql - HAVING by clause 
 
 SQLQuery6.sql - DISTINCT clause
+
+SQLQuery7.sql - TOP clause
