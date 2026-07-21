@@ -5,3 +5,5 @@ SQLQuery2.sql - WHERE clause
 SQLQuery3.sql - ORDER BY clause 
 
 SQLQuery4.sql - GROUP BY clause 
+
+SQLQuery5.sql - HAVING by clause 
