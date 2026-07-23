@@ -11,3 +11,5 @@ SQLQuery5.sql - HAVING by clause
 SQLQuery6.sql - DISTINCT clause
 
 SQLQuery7.sql - TOP clause
+
+SQLQuery8.sql - DATA DEFINTION LANGUAGE commands 
