@@ -21,3 +21,13 @@ ON c.id = o.customer_id
 to obtain data customers table and 
 for our convinient we mentions as c , 
 'id'  is coloum name form that table*/
+
+/* get all customers along with their orders, but 
+only for customers who have palced an order 
+without using INNER JOIN */
+ 
+SELECT *
+FROM customers AS c
+LEFT JOIN orders AS o
+ON c.id = o.customer_id 
+WHERE o.customer_id is NOT NULL 
