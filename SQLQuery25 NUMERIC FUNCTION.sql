@@ -1,0 +1,3 @@
+SELECT 
+ROUND(3.5174, 2),
+ABS(-10)
