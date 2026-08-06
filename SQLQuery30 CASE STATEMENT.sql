@@ -19,3 +19,27 @@ SELECT
 OrderID,
 Sales
 FROM Sales.Orders
+
+
+/* find the average scores of customers amd treat nulls as 0
+Additionally provide details such customerID and lastname*/
+
+SELECT 
+avg(score),
+
+/* conditional aggregation 
+apply aggregate functions only on 
+subset of data that fulfill certains conditions */ 
+
+-- count how many times each customer has made on order with sales \
+-- greater than 30
+SELECT 
+	OrderID,
+	CustomerID,
+	Sales,
+	CASE 
+	WHEN Sales > 30 THEN 1 
+	ELSE 0 
+	END SalesFlag 
+FROM Sales.Orders
+Order by customerid
