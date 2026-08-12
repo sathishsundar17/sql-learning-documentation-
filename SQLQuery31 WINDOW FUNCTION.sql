@@ -144,3 +144,9 @@ defaut frame clause would be
 ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW 
 
 */
+
+--rule 1 . window function only in SELECT, ORDER BY
+--rule 2 . nesting window function is not allowed 
+--rule 3 . sql execute window function after WHERE 
+--rule 4 . window fn can be used together with GROUP BY
+--			only if the same clause are used 
